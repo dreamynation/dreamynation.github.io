@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>About Xin Yu</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-        }
-        td {
-            padding: 3px;
-            border-spacing: 3px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/flowercon.jpg"/>
 </head>
 <body>
-    <h1>Xin Yu</h1>
-    <img src="profile.jpg" alt="Picture of Xin">
+    <div class="hero-image" id="home">
+        <div class="hero-text">
+            <h1>Xin Yu</h1>
+        </div>
+    </div>
+    <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#haiku">Haiku</a></li>
+        <li><a href="#interest">Interest</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+    </ul>
+    
     <h2>Personal Info:</h2>
     <ul>
         <li><b>Major:</b> Computer Science</li>
@@ -43,15 +46,17 @@
         </li>
     </ol>
 
-    <h2>Haiku: A Hazy Summer</h2>
+    <h2 id="haiku">Haiku: A Hazy Summer</h2>
     <p>
-        Looking forward to a relaxing Summer: <br>
-        Short nights and hot days<br>
+        Looking forward to a relaxing Summer: 
+        <div class="indent">
+        <i>Short nights and hot days<br>
         The season for a good nap<br>
-        While the crickets chirp<br>
+        While the crickets chirp<br></i>
+        </div>
     </p>
 
-    <h2>My personal interests</h2>
+    <h2 id="interest">My personal interests</h2>
     <p>
         I like to draw. I've began drawing since elementary school as a hobby. Since then I've been taking
         many art classes through out the school year. I've won a few art competitions and even got to print
@@ -68,7 +73,7 @@
         I'm not a professional but I want to practice and make my photos look professional.
     </p>
 
-    <h2>Class Schedule</h2>
+    <h2 id="schedule">Class Schedule</h2>
     <table>
         <tr>
             <td></td>
